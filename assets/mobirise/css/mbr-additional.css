@@ -710,28 +710,8 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-rRv6keznlw {
-  background: #ffffff;
-}
-.cid-rRv6keznlw .image-block {
-  margin: auto;
-  width: 100% !important;
-}
-.cid-rRv6keznlw .mbr-figure {
-  margin: 0 auto;
-}
-.cid-rRv6keznlw figcaption {
-  position: relative;
-}
-.cid-rRv6keznlw figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rRv6keznlw .image-block {
-    width: 100% !important;
-  }
+.cid-rRQAquKE0v {
+  background-image: url("../../../assets/images/laptop.png");
 }
 .cid-rRv7rRkIHb {
   padding-top: 90px;
