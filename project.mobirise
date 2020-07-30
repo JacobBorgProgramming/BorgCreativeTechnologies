@@ -73,7 +73,7 @@
         "header_custom": "<meta name=\"CSS Library\" content=\"Blox CSS 2.0\">\n<!--JazzBlocks Divided required code-->\n<link rel=\"stylesheet\" href=\"https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/textStyles.css\">\n<link rel=\"stylesheet\" href=\"https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/buttons.css\">\n<link rel=\"stylesheet\" href=\"https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/everythingelse.css\">\n<link rel=\"preload\" href=\"https://dev.jacobborgprogramming.net/libraries/JazzBlocksFunctions.js\" as=\"script\">\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap\" as=\"style\">\n<link href=\"https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap\" rel=\"stylesheet\">\n<!--end-->",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/bctlogo.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/bcs-social-image.png"
       },
       "components": [
         {
