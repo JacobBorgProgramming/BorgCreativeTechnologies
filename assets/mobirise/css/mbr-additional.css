@@ -2908,13 +2908,20 @@ section.lazy-placeholder:after {
     left: -1rem;
   }
 }
-.cid-rRxvxdVzy7 {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/fruit-2.jpeg");
+.cid-saSws5hcEH {
+  background-image: url("../../../assets/images/fruity-banner.png");
 }
-.cid-rRxvxdVzy7 H3 {
-  text-align: left;
+.cid-saSwAvxo53 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #849ea3;
+}
+.cid-saSwAvxo53 P {
+  color: #767676;
+}
+.cid-saSwAvxo53 .mbr-text,
+.cid-saSwAvxo53 .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-saSjrh1ckp.popup-builder {
   background-color: #ffffff;
@@ -3202,7 +3209,7 @@ section.lazy-placeholder:after {
   background-color: #ffffff;
 }
 .cid-rRxwFJxy67 .mbr-text {
-  color: #767676;
+  color: #849ea3;
 }
 .cid-rRxwFJxy67 h4 {
   text-align: center;
@@ -3214,13 +3221,9 @@ section.lazy-placeholder:after {
   font-size: 96px;
   color: #149dcc;
 }
-.cid-rUSTvDo5B1 {
-  padding-top: 0px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-rUSTvDo5B1 P {
-  color: #767676;
+.cid-rRxwFJxy67 .card-title,
+.cid-rRxwFJxy67 .card-img {
+  color: #03dac6;
 }
 .cid-rRxymQH9xF {
   padding-top: 90px;
@@ -3690,6 +3693,14 @@ section.lazy-placeholder:after {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-saSwo2I7If {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-saSwo2I7If P {
+  color: #767676;
 }
 .cid-s6IrXEj6UV {
   padding-top: 90px;
