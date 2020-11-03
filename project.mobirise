@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BCS",
-    "currentPage": "deals.html",
+    "currentPage": "page12.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -7662,7 +7662,7 @@
         "meta_descr": "Borg Creative Studios Marketing",
         "title": "Marketing",
         "order": 8,
-        "meta_image": "@PROJECT_PATH@/assets/images/bcs-cover.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr.jpg"
       },
       "components": [
         {
