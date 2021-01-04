@@ -9,14 +9,22 @@
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
         ['Site', 'Network Views'],
+        ['Estimated views (JAN, 2020)',       578],
+        ['Estimated views (FEB, 2020)',       937],
+        ['Estimated views (MAR, 2020)',       1635],
+        ['Estimated views (APR, 2020)',       1393],
+        ['Estimated views (MAY, 2020)',       2155],
+        ['Estimated views (JUN, 2020)',        2128],
+        ['Estimated views (JUL, 2020)',        2413],
+        ['Estimated views (AUG, 2020)',        2536],
+        ['Estimated views (SEP, 2020)',        2102],
         ['Estimated views (OCT, 2020)',        2532],
         ['Estimated views (NOV, 2020)',        2746],
-        ['Estimated views (DEC, 2020)',        2432],
-        ['Estimated views (JAN, 2021)',       422]
+        ['Estimated views (DEC, 2020)',        2432]
       ]);
 
       var options = {
-        title: 'Network Views (Monthly)',
+        title: 'Network Views (Monthly) 2020',
         curveType: 'function',
         legend: { position: 'bottom' }
       };
