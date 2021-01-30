@@ -73,13 +73,15 @@
           <h1>Welcome!</h1>
           <h3 id="t1">How can we help you?</h3>
           <p id="q1"><button class="uk-button uk-button-secondary" onclick="qa1()">Business products</button><button class="uk-button uk-button-secondary" onclick="qa2()">Home products</button></p>
-          <p id="reset"><button class="uk-button uk-button-secondary" onclick="reset()">Restart</button></p>
+          <p id="reset"></p>
           <script>
           function reset() {
               var x = document.getElementById("q1");
               document.getElementById("q1").innerHTML = '<button class="uk-button uk-button-secondary" onclick="qa1()">Business products</button><button class="uk-button uk-button-secondary" onclick="qa2()">Home products</button>';
               var x = document.getElementById("t1");
               document.getElementById("t1").innerHTML = "How can we help you?";
+              var x = document.getElementById("reset");
+              document.getElementById("reset").innerHTML = "";
 
           }
               function qa1() {
@@ -87,42 +89,48 @@
                   document.getElementById("q1").innerHTML = '<button class="uk-button uk-button-secondary" onclick="qsub4()">Web services</button><button class="uk-button uk-button-secondary" onclick="qsub1()">Media services</button>';
                   var x = document.getElementById("t1");
                   document.getElementById("t1").innerHTML = "Okay, let's look at our business products.";
-
+                  var x = document.getElementById("reset");
+                  document.getElementById("reset").innerHTML = '<button class="uk-button uk-button-secondary" onclick="reset()">Restart</button>';
               }
                   function qa2() {
                   var x = document.getElementById("q1");
                   document.getElementById("q1").innerHTML = '<button class="uk-button uk-button-secondary" onclick="qsub2()">Entertainment</button><button class="uk-button uk-button-secondary" onclick="qsub3()">Productivity</button>';
                   var x = document.getElementById("t1");
                   document.getElementById("t1").innerHTML = "Okay, let's look at our home products.";
-
+                  var x = document.getElementById("reset");
+                  document.getElementById("reset").innerHTML = '<button class="uk-button uk-button-secondary" onclick="reset()">Restart</button>';
               }
                 function qsub1() {
                   var x = document.getElementById("q1");
                   document.getElementById("q1").innerHTML = '<a href="./animation.html"><button class="uk-button uk-button-secondary">Animation</button></a><a href="./interactive.html"><button class="uk-button uk-button-secondary">Interactive</button></a><a href="./video.html"><button class="uk-button uk-button-secondary">Video</button></a><a href="https://airtable.com/shrPGoAka7WYAyNDj" target="_blank"><button class="uk-button uk-button-secondary">Request consultation</button></a>';
                   var x = document.getElementById("t1");
                   document.getElementById("t1").innerHTML = "Select a category or request a consultation.";
-
+                  var x = document.getElementById("reset");
+                  document.getElementById("reset").innerHTML = '<button class="uk-button uk-button-secondary" onclick="reset()">Restart</button>';
                 }
                 function qsub2() {
                   var x = document.getElementById("q1");
                   document.getElementById("q1").innerHTML = '<a href="https://gamejolt.com/games/grocerycatcher/523501" target="_blank"><button class="uk-button uk-button-secondary" >Grocery Catcher</button></a><a href="./animation.html"><button class="uk-button uk-button-secondary">Animation</button></a><a href="./interactive.html"><button class="uk-button uk-button-secondary">Interactive</button></a>';
                   var x = document.getElementById("t1");
                   document.getElementById("t1").innerHTML = "Are any of these what you're looking for?";
-
+                  var x = document.getElementById("reset");
+                  document.getElementById("reset").innerHTML = '<button class="uk-button uk-button-secondary" onclick="reset()">Restart</button>';
                 }
                 function qsub3() {
                   var x = document.getElementById("q1");
                   document.getElementById("q1").innerHTML = '<a href="./fruity.html"><button class="uk-button uk-button-secondary">Fruity Web Browser</button></a><a href="https://search.borgcreative.com" target="_blank"><button class="uk-button uk-button-secondary">BCS Search</button></a>';
                   var x = document.getElementById("t1");
                   document.getElementById("t1").innerHTML = "Are any of these what you're looking for?";
-
+                  var x = document.getElementById("reset");
+                  document.getElementById("reset").innerHTML = '<button class="uk-button uk-button-secondary" onclick="reset()">Restart</button>';
                 }
                 function qsub4() {
                   var x = document.getElementById("q1");
                   document.getElementById("q1").innerHTML = '<a href="./page12.html"><button class="uk-button uk-button-secondary" >Web Marketing</button></a><a href="https://search.borgcreative.com" target="_blank"><button class="uk-button uk-button-secondary" >BCS Search</button></a><a href="https://airtable.com/shrXaOPQ4UHah6w9d" target="_blank"><button class="uk-button uk-button-secondary" >BCS Search Indexing</button></a>';
                   var x = document.getElementById("t1");
                   document.getElementById("t1").innerHTML = "Are any of these what you're looking for?";
-
+                  var x = document.getElementById("reset");
+                  document.getElementById("reset").innerHTML = '<button class="uk-button uk-button-secondary" onclick="reset()">Restart</button>';
                 }
           </script>
 
