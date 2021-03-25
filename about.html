@@ -57,7 +57,15 @@
 
 
   <body>
-
+    <script>
+      function initFreshChat() {
+        window.fcWidget.init({
+          token: "ecce6efc-4e78-428e-8df6-c1bdd0f3c1bd",
+          host: "https://wchat.freshchat.com"
+        });
+      }
+      function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+    </script>
     <div name="header" class="uk-height-viewport uk-background-cover uk-light uk-flex" uk-parallax="bgy: +100; " style="background-image: url('img/bcs-3.jpg');">
 
         <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
