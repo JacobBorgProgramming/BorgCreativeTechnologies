@@ -1,15 +1,11 @@
 BEGIN:VCARD
-N: George;Tifany;;;
-ADR; INTL; PARCEL; WORK:; ; ;;;;
-ADR; DOM; PARCEL; HOME:; ; ;;;;
-EMAIL; INTERNET: 
-EMAIL; INTERNET: 
-EMAIL; INTERNET: Tifany.George@kw.com
-ORG: 
-TEL; WORK: 
-TEL; FAX; WORK: 
-TEL; CELL: 6615289910
-TEL; HOME: 
-TITLE: 
-URL; WORK: 
-URL: http://tifanygeorge.com
+VERSION:4.0
+PRODID:-//BBros.us llc//bvCard.com//EN
+N:George;Tifany;;;
+FN:Tifany George
+EMAIL:Tifany.George@kw.com
+ORG:Realtor
+TEL:6615289910
+URL;type=pref:http://tifanygeorge.com
+URL:https://www.facebook.com/greatAVhomes
+END:VCARD
