@@ -1,7 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+<!-- or -->
+<script src="https://unpkg.com/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+
+<div id="chart"></div>
+<script>
+const data = {
+    labels: ["JAN, 2021","FEB, 2021","MAR, 2021","APR, 2021"
+    ],
+    datasets: [
+        {
+            name: "Social Accounts", type: "Line",
+            values: [1460,12,256,526]
+        },
+        {
+            name: "JBP", type: "line",
+            values: [872,883,878,373]
+        },
+        {
+            name: "GTT", type: "line",
+            values: [57,38,44,11]
+        },
+        {
+            name: "Render Blog", type: "line",
+            values: [25,7,9,1]
+        },
+        {
+            name: "CWJ", type: "line",
+            values: [861,488,595,193]
+        },
+        {
+            name: "Author", type: "line",
+            values: [0,8,20,1]
+        },
+        {
+            name: "Marketing Pages", type: "line",
+            values: [0,12,5,0]
+        },
+        {
+            name: "Fruity", type: "line",
+            values: [46,6,6,3]
+        }
+    ]
+}
+
+const chart = new frappe.Chart("#chart", {  // or a DOM element,
+                                            // new Chart() in case of ES6 module with above usage
+    title: "Network Views (Monthly)",
+    data: data,
+    type: 'line', // or 'bar', 'line', 'scatter', 'pie', 'percentage'
+    height: 250,
+    dotSize: 8,
+    colors: ['#9aaab9','#12a655', '#0065a3','#2f3d50','#cdcdcd','#03dac6','#849ea3','#8bc34a']
+})
+</script>
+
+
+
+
+
+
+
+  <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
@@ -30,7 +92,7 @@
 
       chart.draw(data, options);
     }
-  </script>
+  </script>-->
 </head>
 <body>
   <center><div id="curve_chart" style="width: 100%; height: 300px"></div></center>

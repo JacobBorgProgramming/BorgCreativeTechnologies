@@ -1,7 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+<!-- or -->
+<script src="https://unpkg.com/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+
+<div id="chart"></div>
+<script>
+const data = {
+    labels: ["JAN, 2021","FEB, 2021","MAR, 2021","APR, 2021"
+    ],
+    datasets: [
+        {
+            name: "Views", type: "Line",
+            values: [3391,1444,1839,1099]
+        }
+    ]
+}
+
+const chart = new frappe.Chart("#chart", {  // or a DOM element,
+                                            // new Chart() in case of ES6 module with above usage
+    title: "Network Views (Monthly)",
+    data: data,
+    type: 'line', // or 'bar', 'line', 'scatter', 'pie', 'percentage'
+    height: 250,
+    dotSize: 8,
+    colors: ['#03dac6']
+})
+</script>
+  <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
@@ -28,7 +55,7 @@
 
       chart.draw(data, options);
     }
-  </script>
+  </script>-->
 </head>
 <body>
   <center><div id="curve_chart" style="width: 100%; height: 300px"></div></center>

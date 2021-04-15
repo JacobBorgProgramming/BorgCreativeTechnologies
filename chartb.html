@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+  <!-- or -->
+  <script src="https://unpkg.com/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+
+  <div id="chart"></div>
+  <script>
+  const data = {
+      labels: ["View Type B","View Type A","Total"
+      ],
+      datasets: [
+          {
+              name: "Social Accounts", chartType: 'bar',
+              values: [526,0,526]
+          },
+          {
+              name: "JBP", chartType: 'bar',
+              values: [373,4,377]          },
+          {
+              name: "GTT", chartType: 'bar',
+              values: [11,3,14]          },
+          {
+              name: "Render Blog", chartType: 'bar',
+              values: [1,0,1]          },
+          {
+              name: "CWJ", chartType: 'bar',
+              values: [170,0,170]          },
+          {
+              name: "Author", chartType: 'bar',
+              values: [0,1,1]          },
+          {
+              name: "Marketing Pages", chartType: 'bar',
+              values: [0,0,0]          },
+          {
+              name: "Fruity", chartType: 'bar',
+              values: [0,3,3]          }
+      ]
+  }
+
+  const chart = new frappe.Chart("#chart", {  // or a DOM element,
+                                              // new Chart() in case of ES6 module with above usage
+      title: "View Type Comparison (APR 2021)",
+      data: data,
+      type: 'bar', // or 'bar', 'line', 'scatter', 'pie', 'percentage'
+      height: 250,
+      dotSize: 8,
+      colors: ['#9aaab9','#12a655', '#0065a3','#2f3d50','#cdcdcd','#03dac6','#849ea3','#8bc34a']
+  })
+  </script>
+    <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawSeriesChart);
@@ -32,9 +81,9 @@
       var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
       chart.draw(data, options);
     }
-    </script>
+  </script>-->
   </head>
   <body>
-    <div id="series_chart_div" style="width: 100%; height: 330px;"></div>
+    <!--<div id="series_chart_div" style="width: 100%; height: 330px;"></div>-->
   </body>
 </html>
