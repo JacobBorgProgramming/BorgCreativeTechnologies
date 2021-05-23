@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+<!-- or -->
+<script src="https://unpkg.com/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+
+<div id="chart"></div>
+<script>
+const data = {
+    labels: ["JAN, 2021","FEB, 2021","MAR, 2021","APR, 2021","MAY, 2021"
+    ],
+    datasets: [
+        {
+            name: "Views", type: "Line",
+            values: [3391,1444,1839,2377,2132]
+        }
+    ]
+}
+
+const chart = new frappe.Chart("#chart", {  // or a DOM element,
+                                            // new Chart() in case of ES6 module with above usage
+    title: "Network Views (Monthly)",
+    data: data,
+    type: 'line', // or 'bar', 'line', 'scatter', 'pie', 'percentage'
+    height: 250,
+    dotSize: 8,
+    colors: ['#03dac6']
+})
+</script>
+  <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Site', 'Network Views'],
+
+        ['Estimated views (NOV, 2020)',        2746],
+        ['Estimated views (DEC, 2020)',        2432],
+        ['Estimated views (JAN, 2021)',       3391],
+        ['Estimated views (FEB, 2021)',       1444],
+        ['Estimated views (MAR, 2021)',       1839],
+        ['Estimated views (APR, 2021)',       1099]
+      ]);
+
+      var options = {
+        title: 'Network Views (Monthly)',
+        curveType: 'function',
+        legend: { position: 'bottom' }
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+      chart.draw(data, options);
+    }
+  </script>-->
+</head>
+<body>
+  <!--<center><div id="curve_chart" style="width: 100%; height: 300px"></div></center>-->
+</body>
+</html>
