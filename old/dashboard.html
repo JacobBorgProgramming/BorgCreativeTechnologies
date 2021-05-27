@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <link rel="shortcut icon" href="./img/bcs-logo.PNG">
+
+  <!-- Compressed CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit-icons.min.js"></script>
+
+
+  <meta charset="utf-8">
+  <title>Marketing Dashboard</title>
+</head>
+<header>
+  <div class="uk-inline" style="position: fixed; top: 0px; left: 0px;">
+      <a href="./index.html"><button class="uk-button uk-button-secondary" type="button">Home</button></a>
+
+      <button class="uk-button uk-button-secondary" type="button" >Menu</button>
+      <div uk-dropdown="mode: click">
+        <p><a href=""><button class="uk-button uk-button-text">Digital Products</button></a></p>
+        <div uk-dropdown="mode: click">
+          <p><a href="./page12.html" ><button class="uk-button uk-button-text">BCS Marketing</button></a></p>
+          <p><a href="./bcs-card.html" ><button class="uk-button uk-button-text">BCS Card</button></a></p>
+          <p><a href="./fruity.html" ><button class="uk-button uk-button-text">Fruity</button></a></p>
+          <p><a href="https://gamejolt.com/games/grocerycatcher/523501" target="_blank"><button class="uk-button uk-button-text">Grocery Catcher</button></a></p>
+          <p><a href="https://search.borgcreative.com/" target="_blank"><button class="uk-button uk-button-text">Search (Beta)</button></a></p>
+        </div>
+        <p><a href=""><button class="uk-button uk-button-text">Media</button></a></p>
+        <div uk-dropdown="mode: click">
+          <p><a href="./animation.html" ><button class="uk-button uk-button-text">Animation</button></a></p>
+          <p><a href="./video.html" ><button class="uk-button uk-button-text">Video</button></a></p>
+          <p><a href="./interactive.html" ><button class="uk-button uk-button-text">Interactive</button></a></p>
+        </div>
+        <p><a href="./welcome.html" ><button class="uk-button uk-button-text">Interactive Guide</button></a></p>
+
+        <p><a href="https://teespring.com/stores/borgcreative" target="_blank"><button class="uk-button uk-button-text">Shop</button></a></p>
+        <p><a href="./privacy.html" ><button class="uk-button uk-button-text">Privacy</button></a></p>
+        <p><a href="https://www.facebook.com/borgcreativestudios/" target="_blank"> <img src="./img/facebook.svg" width="40px" alt=""> </a><a href="https://www.instagram.com/borgcreativestudios/" target="_blank"> <img src="./img/instagram.svg" width="40px" alt=""> </a><a href="https://twitter.com/borgcreative" target="_blank"> <img src="./img/twitter.svg" width="40px" alt=""> </a></p>
+
+
+      </div>
+
+  </div>
+
+
+</header>
+
+
+  <body style="margin-top: 0px;">
+    <script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "ecce6efc-4e78-428e-8df6-c1bdd0f3c1bd",
+      host: "https://wchat.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
+    <div name="header" class="uk-height-viewport uk-background-cover uk-light uk-flex" uk-parallax="bgy: +100; " style="background-color: #849ea3;">
+      <!--<p><a class="uk-button uk-button-secondary" href="./photography.html">View more</a></p>-->
+
+        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"><h1><strong></strong></h1>
+          <center widith="95%">
+            <!--<img width="85%" src="./img/construction.png" alt="Construction illustration | Sourced from undraw.co">
+            <h1>This page is under construction!</h1>
+            <h5>A new, better dashboard is coming soon!</h5>-->
+
+            <img width="65%" src="./img/datagroups.png" alt="Video files illustration | Sourced from undraw.co">
+
+            <h1> <strong>Marketing Dashboard</strong> </h1>
+
+
+          </center>
+
+
+
+        </div>
+    </div>
+
+
+
+<div style="margin: 10px;">
+
+
+
+
+
+    <ul class="uk-subnav uk-subnav-pill" uk-switcher>
+        <li><button class="uk-button uk-button-default" type="button" href="#">Location Views</button></li>
+        <li><button class="uk-button uk-button-default" type="button" href="#">Network Views</button></li>
+        <li><button class="uk-button uk-button-default" type="button" href="#">View Type</button></li>
+        <li><button class="uk-button uk-button-default" type="button" href="#">Database</button></li>
+    </ul>
+
+    <ul class="uk-switcher uk-margin">
+        <li><center><embed src="./chartm.html" width="100%" height="350px"></center><center> <p><a class="uk-button uk-button-secondary" href="./chartm-2020.html" target="_blank">View 2020's data</a></p> </center> </li>
+        <li><center><embed src="./chartt.html" width="100%" height="350px"></center><center> <p><a class="uk-button uk-button-secondary" href="./chartt-2020.html" target="_blank">View 2020's data</a></p> </center></li>
+        <li><center><embed src="./chartb.html" width="100%" height="350px"></center></li>
+        <li><center>
+        <table class="uk-table uk-table-responsive">
+    <caption>Placement Breakdown</caption>
+    <thead>
+        <tr>
+            <th>Ad Placement</th>
+            <th># of Instances</th>
+            <th># of Views (Type A)</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><button class="uk-button uk-button-text" type="button">mk2-bar-1</button>
+              <div uk-dropdown="mode: click">
+              <p>Categories: general/politics/entertainment/non-profit</p>
+              <p class="uk-text-meta">The MK2 series of ad system was released in early 2020.</p>
+
+              </div>
+            </td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+        <tr>
+        <td><button class="uk-button uk-button-text" type="button">mk2-bar-2</button>
+          <div uk-dropdown="mode: click">
+          <p>Categories: general/entertainment/media</p>
+          <p class="uk-text-meta">The MK2 series of ad system was released in early 2020.</p>
+
+          </div>
+        </td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+        <tr>
+        <td><button class="uk-button uk-button-text" type="button">mk2-bar-3</button>
+          <div uk-dropdown="mode: click">
+          <p>Categories: general/media/technology</p>
+          <p class="uk-text-meta">The MK2 series of ad system was released in early 2020.</p>
+
+          </div>
+        </td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+        <td><button class="uk-button uk-button-text" type="button">mk2-bar-4</button>
+          <div uk-dropdown="mode: click">
+          <p>Categories: general/politics/technology</p>
+          <p class="uk-text-meta">The MK2 series of ad system was released in early 2020.</p>
+
+          </div>
+        </td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+        <tr>
+        <td><button class="uk-button uk-button-text" type="button">mk2-bar-fruity</button>
+          <div uk-dropdown="mode: click">
+          <p>Categories: general/entertainment/media</p>
+          <p class="uk-text-meta">The MK2 series of ad system was released in early 2020.</p>
+
+          </div>
+        </td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+        <td><button class="uk-button uk-button-text" type="button">mk3-bar-1</button>
+          <div uk-dropdown="mode: click">
+          <p>Categories: general/entertainment/education</p>
+          <p class="uk-text-meta">The MK3 series of ad system was released in the summer of 2020.</p>
+
+          </div>
+        </td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
+        </center></li>
+    </ul>
+
+</div>
+
+
+  </body>
+  <footer>
+
+
+    <div name="header" class="uk-height-viewport uk-background-cover uk-light uk-flex" uk-parallax="bgy: +100; " style="background-image: url('img/bcs-cover.jpg');">
+
+        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+          <table class="uk-table" >
+      <tbody style="border: none;">
+          <tr style="background-color: #3d566e; border: none; color: #fff;">
+  <td><a href="./privacy.html" >Privacy</a></td>
+  <td><a href="./jobs.html" >Jobs</a></td>
+  <td><a href="./about.html" >About Us</a></td>
+
+          </tr>
+          <tr style="background-color: #3d566e; border: none; color: #fff;">
+  <td><a href="https://data.borgcreative.com/" target="_blank" >Data</a></td>
+  <td><a href="./accountterms.html" >Terms</a></td>
+  <td><a href="https://borgcreative.freshdesk.com/support/home"target="_blank">Support</a></td>
+          </tr>
+      </tbody>
+      <caption>Borg Creative Studios, LLC</caption>
+  </table>
+        </div>
+
+    </div>
+  </footer>
+</html>

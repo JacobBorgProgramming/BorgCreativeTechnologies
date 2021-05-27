@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+  <!-- or -->
+  <script src="https://unpkg.com/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+
+  <div id="chart"></div>
+  <script>
+  const data = {
+      labels: ["View Type B","View Type A","Total"
+      ],
+      datasets: [
+          {
+              name: "Social Accounts", chartType: 'bar',
+              values: [1079,0, 1079]
+          },
+          {
+              name: "JBP", chartType: 'bar',
+              values: [646,0,646]          },
+          {
+              name: "GTT", chartType: 'bar',
+              values: [27,2,29]          },
+          {
+              name: "Render Blog", chartType: 'bar',
+              values: [1,0,1]          },
+          {
+              name: "CWJ", chartType: 'bar',
+              values: [362,0,362]          },
+          {
+              name: "Author", chartType: 'bar',
+              values: [0,15,15]          },
+          {
+              name: "Marketing Pages", chartType: 'bar',
+              values: [0,0,0]          },
+          {
+              name: "Fruity", chartType: 'bar',
+              values: [0,0,0]          }
+      ]
+  }
+
+  const chart = new frappe.Chart("#chart", {  // or a DOM element,
+                                              // new Chart() in case of ES6 module with above usage
+      title: "View Type Comparison (MAY 2021)",
+      data: data,
+      type: 'bar', // or 'bar', 'line', 'scatter', 'pie', 'percentage'
+      height: 250,
+      dotSize: 8,
+      colors: ['#9aaab9','#12a655', '#0065a3','#2f3d50','#cdcdcd','#03dac6','#849ea3','#8bc34a']
+  })
+  </script>
+    <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['ID', 'Tybe B', 'Type A', 'Site',     'Total Views'],
+        ['1',    170,              0,      'CoffeeWithJake',  170],
+        ['2',    11,              3,      'GroundsTechTalk',         14],
+        ['3',    1,               0,      'TheRenderBlog',         1],
+        ['4',    373,              4,      'JacobBorgProgramming',    377],
+        ['5',    6,              0,         'FreedomPoint',         6],
+        ['6',    0,              3,         'BCSSearch',         3],
+        ['7',    0,              1,         'BCSAuthor',         0],
+        ['Marketing Pages',0,    0,         'BCSMarketingPages', 0],
+        ['Fruity',    0,              3,       'Fruity',    3],
+        ['Social',    526,              0,      'Social',    526]
+      ]);
+
+      var options = {
+        title: 'View Type Comparison (APR 2021)',
+        hAxis: {title: 'Type B'},
+        vAxis: {title: 'Type A'},
+        bubble: {textStyle: {fontSize: 11}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+  </script>-->
+  </head>
+  <body>
+    <!--<div id="series_chart_div" style="width: 100%; height: 330px;"></div>-->
+  </body>
+</html>
