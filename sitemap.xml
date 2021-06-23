@@ -1,69 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://www.borgcreative.com/about.html</loc>
+        <loc>/about.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/accounts.html</loc>
+        <loc>/accounts.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/accountterms.html</loc>
+        <loc>/accountterms.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/adpublisher.html</loc>
+        <loc>/adpublisher.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/adreport.html</loc>
+        <loc>/adreport.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/animation.html</loc>
+        <loc>/animation.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/bcs-card.html</loc>
+        <loc>/bcs-card.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/bcs-lock.html</loc>
+        <loc>/bcs-lock.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/bcssocial.html</loc>
+        <loc>/bcssocial.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/consultation.html</loc>
+        <loc>/consultation.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/contact.html</loc>
+        <loc>/contact.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/dashboard.html</loc>
+        <loc>/dashboard.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/emailsettings.html</loc>
+        <loc>/emailsettings.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/fruity.html</loc>
+        <loc>/fruity.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/index.html</loc>
+        <loc>/index.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/interactive.html</loc>
+        <loc>/interactive.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/page12.html</loc>
+        <loc>/page12.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/privacy.html</loc>
+        <loc>/privacy.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/services.html</loc>
+        <loc>/services.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/values.html</loc>
+        <loc>/values.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/video.html</loc>
+        <loc>/video.html</loc>
     </url>
     <url>
-        <loc>https://www.borgcreative.com/welcome.html</loc>
+        <loc>/webdesign.html</loc>
+    </url>
+    <url>
+        <loc>/welcome.html</loc>
     </url>
 </urlset>
