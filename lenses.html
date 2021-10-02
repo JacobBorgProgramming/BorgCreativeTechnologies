@@ -21,40 +21,22 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+<!-- Matomo -->
 <script>
-window.Papercups = {
-  config: {
-    accountId: "d0e7d0dc-e134-4e74-a5ad-29c6c82aae0f",
-    title: "Welcome to Borg Creative Studios",
-    subtitle: "Ask us anything in the chat window below 😊",
-    primaryColor: "#849ea3",
-    greeting: "Hello! How can we assist you?",
-    awayMessage: "We're away at the moment, but you can go ahead and send us a message.",
-    newMessagePlaceholder: "Start typing...",
-    showAgentAvailability: true,
-    agentAvailableText: "We're online right now!",
-    agentUnavailableText: "We're away at the moment, but you can go ahead and send us a message.",
-    requireEmailUpfront: true,
-    iconVariant: "filled",
-    baseUrl: "https://app.papercups.io",
-    // Optionally include data about your customer here to identify them
-    // customer: {
-    //   name: __CUSTOMER__.name,
-    //   email: __CUSTOMER__.email,
-    //   external_id: __CUSTOMER__.id,
-    //   metadata: {
-    //     plan: "premium"
-    //   }
-    // }
-  },
-};
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.borgcreative.com/tracking/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
-<script
-type="text/javascript"
-async
-defer
-src="https://app.papercups.io/widget.js"
-></script>
+<!-- End Matomo Code -->
 
 
 <!-- Panelbear Analytics - We respect your privacy -->
