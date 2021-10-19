@@ -67,6 +67,12 @@
         <loc>/services.html</loc>
     </url>
     <url>
+        <loc>/servicesold.html</loc>
+    </url>
+    <url>
+        <loc>/softwareproducts.html</loc>
+    </url>
+    <url>
         <loc>/values.html</loc>
     </url>
     <url>
@@ -74,6 +80,9 @@
     </url>
     <url>
         <loc>/webdesign.html</loc>
+    </url>
+    <url>
+        <loc>/webproducts.html</loc>
     </url>
     <url>
         <loc>/welcome.html</loc>
