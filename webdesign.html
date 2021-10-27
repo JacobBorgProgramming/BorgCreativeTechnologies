@@ -8,15 +8,16 @@
     <meta name="theme-color" content="#fff">
     <meta property="og:image" content="assets/img/BCS_twitter.jpg">
     <meta property="og:type" content="website">
-    <meta name="twitter:description" content="A new web browser for MacOS.">
-    <meta name="twitter:image" content="assets/img/fruity-banner.png">
+    <meta name="twitter:title" content="Web Design">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Fruity">
     <meta name="description" content="An overview of our web design projects.">
+    <meta name="twitter:image" content="assets/img/code.jpg">
+    <meta name="twitter:description" content="Websites designed and built with Bootstrap, JavaScript, UI Kit, Bulma CSS, and more.">
     <link rel="icon" type="image/png" sizes="3000x3000" href="assets/img/IMG_1352.png">
     <link rel="icon" type="image/png" sizes="3000x3000" href="assets/img/IMG_1352.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -118,7 +119,7 @@
                         <h2 class="text-center">Our Team's Featured Projects</h2>
                     </div><!-- End: Intro -->
                     <!-- Start: Projects -->
-                    <div class="row projects">
+                    <div class="row projects" style="text-align: center;">
                         <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="https://scholar.wavedm.net/media/banner.jpg">
                             <h3 class="name">Wave Digital Ministries</h3>
                             <p class="description">Our team developed and has been managing all of the Wave Digital Ministries websites since 2019.</p><a href="https://www.wavedm.net/" target="_blank">Check out the sites</a>
@@ -127,6 +128,9 @@
                             <h3 class="name">WDM Scholar</h3>
                             <p class="description">WDM Scholar is an example of an advanced static website. WDM Scholar is a Christian education website that is part of Wave Digital Ministries.</p><a href="https://scholar.wavedm.net/" target="_blank">Check out the site</a>
                         </div>
+                    </div><!-- End: Projects -->
+                    <!-- Start: Projects -->
+                    <div class="row projects" style="text-align: center;">
                         <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/bcss.jpg">
                             <h3 class="name">BCS Social (Beta)</h3>
                             <p class="description">BCS Social is an advanced static site designed as a social broadcasting platform. The project is still in beta.</p><a href="https://www.bcssocial.net/" target="_blank">Check out the site</a>
@@ -136,20 +140,73 @@
                             <p class="description">This is one of our team's oldest websites. Jacob Borg Programming is a project hosting website with several open-source projects.</p><a href="https://www.jacobborgprogramming.net/" target="_blank">Check out the site</a>
                         </div>
                     </div><!-- End: Projects -->
-                    <div class="row">
-                        <div class="col"></div>
-                    </div>
                 </div>
             </section><!-- End: Projects Clean -->
             <!-- Start: Contact Form Clean -->
             <section class="contact-clean" style="background: rgb(246,246,246);">
+                <!-- Start: Pricing Table Style 01 -->
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="pricingTable purple">
+                            <div class="pricingTable-header">
+                                <h3>Creator</h3>
+                            </div>
+                            <div class="pricing-plans"><span class="month">Starting at</span><span class="price-value"><i class="fa fa-usd"></i><span>50</span></span></div>
+                            <div class="pricingContent">
+                                <ul>
+                                    <li>5 Static web pages</li>
+                                    <li>$10 BCS marketing credit</li>
+                                    <li>Contact form</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="pricingTable green">
+                            <div class="pricingTable-header">
+                                <h3>Business</h3>
+                            </div>
+                            <div class="pricing-plans"><span class="month">Starting at</span><span class="price-value"><i class="fa fa-usd"></i><span>200</span></span></div>
+                            <div class="pricingContent">
+                                <ul>
+                                    <li>25 Static Web Pages</li>
+                                    <li>$30 BCS Marketing Credit</li>
+                                    <li>Contact Form</li>
+                                    <li>Download center</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="pricingTable yellow">
+                            <div class="pricingTable-header">
+                                <h3>Enterprise</h3>
+                            </div>
+                            <div class="pricing-plans"><span class="month">Contact sales</span><span class="price-value"></span></div>
+                            <div class="pricingContent">
+                                <ul>
+                                    <li>All the features of business</li>
+                                    <li>25+ pages</li>
+                                    <li>BCS card</li>
+                                    <li><a href="welcome.html">"Welcome"</a> program</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End: Pricing Table Style 01 -->
                 <form data-bss-recipient="2904202ec7d643698622e477a6f86b2d" data-bss-subject="A new website consultation has been submitted">
                     <h2 class="text-center">Let's get started!</h2>
                     <p>Some package pricing varies. After your submit the below form, we will get an estimate to you as soon as possible!</p><!-- Start: Success Example -->
                     <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name"></div><!-- End: Success Example -->
                     <!-- Start: Error Example -->
                     <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><!-- Start: The Error Message --><small class="form-text text-danger">Please enter a correct email address.</small><!-- End: The Error Message -->
-                    </div><!-- End: Error Example -->
+                    </div><!-- End: Error Example --><label class="form-label">Package</label><select class="form-select" style="margin-bottom: 15px;">
+                        <optgroup label="Package">
+                            <option value="12" selected="">Creator</option>
+                            <option value="13">Business</option>
+                            <option value="14">Enterprise</option>
+                        </optgroup>
+                    </select><label class="form-label">Website Details</label>
                     <div class="mb-3"><textarea class="form-control" name="message" placeholder="Website overview" rows="14" required=""></textarea></div><label class="form-label">Is there a website design that speaks to you? Drop a link to it below!</label><input class="form-control" type="url" placeholder="Inspiration" name="inspiration">
                     <fieldset>
                         <legend>On my site I need...</legend>
