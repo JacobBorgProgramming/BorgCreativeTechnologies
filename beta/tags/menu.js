@@ -33,3 +33,7 @@ function menu(){
     document.getElementById("login").href = 'https://cloud.borgcreative.com/'
     document.getElementById("login").target = '_blank'
 }
+
+function footer(){
+    document.getElementById("footer").innerHTML = '<nav class="uk-navbar-container" uk-navbar><div class="uk-navbar-center"><ul class="uk-navbar-nav"> <li><a style="margin-right: 5px;" href="https://www.linkedin.com/in/jacob-borg-94376b196/" target="_blank"> <img src="./icon/linkedin.svg" alt=""> </a></li>   <li><a style="margin-right: 5px;" href="https://twitter.com/jborg_arts" target="_blank"> <img src="./icon/twitter.svg" alt=""> </a></li> <li class=""><a href="https://www.instagram.com/jborg_arts/" target="_blank"> <img src="./icon/instagram.svg" alt=""> </a></li>  </ul></div></nav>'
+  }
