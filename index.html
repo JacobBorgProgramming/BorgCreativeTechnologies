@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background: #3d566e;" lang="en">
+<html style="background: #fff;" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -17,6 +17,7 @@
     <link rel="icon" type="image/png" sizes="3000x3000" href="assets/img/IMG_1352.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -103,61 +104,94 @@ window.Papercups = {
             </div>
         </div>
     </nav>
-    <main class="page landing-page" style="background: linear-gradient(#1F1E2C, #1A1A1A);">
+    <main class="page landing-page">
         <section>
-            <!-- Start: web design -->
-            <div style="padding-top: 30px;">
-                <div class="text-center">
-                    <h2 class="text-white">BCS Author</h2>
-                    <p class="text-white">A privacy-friendly writing app</p>
-                    <p class="text-white" style="margin-bottom: 0px;"><a href="author.html">learn more</a></p><img src="assets/img/authorpromo.png" style="min-width: 250px;max-width: 70%;">
-                </div>
-            </div><!-- End: web design -->
             <!-- Start: Fruity -->
             <div style="background: linear-gradient(white 1%, rgb(206,206,206));padding-top: 30px;">
                 <div class="text-center">
-                    <h2>Fruity Web Browser</h2>
-                    <p>Minimalist web browsing for MacOS.</p>
-                    <p class="text-white" style="margin-bottom: 0px;"><a href="fruity.html">learn more</a></p><img class="flex-sm-shrink-1 flex-md-shrink-1 flex-lg-shrink-0 flex-xl-shrink-0 flex-xxl-shrink-0" data-bss-disabled-mobile="true" data-aos="fade-up" data-aos-once="true" src="assets/img/fruitypromo.png" style="min-width: 250px;max-width: 70%;">
-                </div>
-            </div><!-- End: Fruity -->
-            <!-- Start: web design -->
-            <div style="padding-top: 30px;">
-                <div class="text-center">
-                    <h2 class="text-white">Web Design&nbsp;</h2>
-                    <p class="text-white">Cost-efficient websites for anyone or any business.</p>
-                    <p class="text-white" style="margin-bottom: 0px;"><a href="webdesign.html">learn more</a></p><img src="assets/img/webdesign2.png" style="min-width: 250px;max-width: 70%;">
-                </div>
-            </div><!-- End: web design -->
-            <!-- Start: Fruity -->
-            <div style="padding-top: 30px;background: linear-gradient(white 1%, rgb(206,206,206));">
-                <div class="text-center">
-                    <h2>BCS Marketing<br></h2>
-                    <p>Privacy by-design flat-rate marketing for anyone.</p>
-                    <p class="text-white" style="margin-bottom: 0px;"><a href="page12.html">learn more</a></p><img class="flex-sm-shrink-1 flex-md-shrink-1 flex-lg-shrink-0 flex-xl-shrink-0 flex-xxl-shrink-0" data-bss-disabled-mobile="true" data-aos="fade-up" data-aos-once="true" src="assets/img/adad3.png" style="min-width: 250px;max-width: 70%;">
+                    <div class="carousel slide carousel-dark" data-bs-ride="carousel" id="carousel-1">
+                        <div class="carousel-inner">
+                            <!-- Start: Fruity (Pineapple) -->
+                            <div class="carousel-item active" style="background: url(&quot;assets/img/fruitypromo.png&quot;);">
+                                <h2 style="padding-top: 5px;">Fruity Web Browser</h2>
+                                <p>Minimalist web browsing for MacOS.</p>
+                                <p class="text-white" style="margin-bottom: 0px;"><a href="fruity.html">learn more</a></p><img class="w-100 d-block" src="assets/img/fruitypromo.png" style="margin-top: -20%;">
+                            </div><!-- End: Fruity (Pineapple) -->
+                            <!-- Start: Author -->
+                            <div class="carousel-item" style="background: url(&quot;assets/img/fruitypromo.png&quot;);">
+                                <h2 style="padding-top: 5px;">Author</h2>
+                                <p>A browser based, light-weight, privacy-oriented writing app.</p>
+                                <p class="text-white" style="margin-bottom: 0px;"><a href="author.html">learn more</a></p><img class="w-100 d-block" src="assets/img/bcsauthorpromo.png" style="margin-top: -20%;">
+                            </div><!-- End: Author -->
+                            <!-- Start: Cloud -->
+                            <div class="carousel-item" style="background: url(&quot;assets/img/fruitypromo.png&quot;);">
+                                <h2 style="padding-top: 5px;">BCS Cloud</h2>
+                                <p>Privacy friendly forms, calendar, and more.</p>
+                                <p class="text-white" style="margin-bottom: 0px;"><a href="cloud.html">learn more</a></p><img class="w-100 d-block" src="assets/img/cloudpromo1.png" style="margin-top: -20%;">
+                            </div><!-- End: Cloud -->
+                            <!-- Start: Web Design -->
+                            <div class="carousel-item" style="background: url(&quot;assets/img/fruitypromo.png&quot;);">
+                                <h2 style="padding-top: 5px;">Web Design</h2>
+                                <p>Cost-efficient websites for anyone or any business.</p>
+                                <p class="text-white" style="margin-bottom: 0px;"><a href="webdesign.html">learn more</a></p><img class="w-100 d-block" src="assets/img/webdesign2.png" style="margin-top: -20%;">
+                            </div><!-- End: Web Design -->
+                        </div>
+                        <div>
+                            <!-- Start: Previous --><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><!-- End: Previous -->
+                            <!-- Start: Next --><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a><!-- End: Next -->
+                        </div>
+                    </div>
                 </div>
             </div><!-- End: Fruity -->
             <!-- Start: more -->
             <div style="padding-top: 30px;">
-                <div class="text-center">
-                    <h2 style="color: #fff;">And so much more!</h2><!-- Start: 1 Row 3 Columns -->
-                    <div class="container" style="padding-bottom: 15px;">
-                        <div class="row">
-                            <div class="col-md-4"><img data-bss-hover-animate="pulse" src="assets/img/webdesign.png" width="100%">
-                                <h4 style="color: #fff;">Web Products</h4>
-                                <p class="text-white" style="margin-bottom: 0px;"><a href="webproducts.html">learn more</a></p>
+                <!-- Start: Article List -->
+                <section class="article-list">
+                    <!-- Start: Home -->
+                    <div class="container">
+                        <!-- Start: Intro -->
+                        <div class="intro">
+                            <h2 class="text-center">For Home</h2>
+                        </div><!-- End: Intro -->
+                        <!-- Start: Articles -->
+                        <div class="row articles" style="padding-bottom: 0px;">
+                            <div class="col-sm-6 col-md-4 item"><a href="coconut.html"><img class="img-fluid" src="assets/img/coconutcover.png"></a>
+                                <h3 class="name">Coconut</h3>
+                                <p class="description">A privacy enhancing browser extension for Safari.</p><a class="action" href="coconut.html"><i class="fa fa-arrow-circle-right" style="color: #1a1a1a;"></i></a>
                             </div>
-                            <div class="col-md-4"><img data-bss-hover-animate="pulse" src="assets/img/business.png" width="100%">
-                                <h4 style="color: #fff;">Business Products</h4>
-                                <p class="text-white" style="margin-bottom: 0px;"><a href="services.html">learn more</a></p>
+                            <div class="col-sm-6 col-md-4 item"><a href="fruity.html"><img class="img-fluid" src="assets/img/fruitypromo-1.png"></a>
+                                <h3 class="name">Fruity</h3>
+                                <p class="description">A privacy respecting, minimalist browser for MacOS.</p><a class="action" href="fruity.html"><i class="fa fa-arrow-circle-right" style="color: #1a1a1a;"></i></a>
                             </div>
-                            <div class="col-md-4"><img data-bss-hover-animate="pulse" src="assets/img/thinking.png" width="100%" style="color: #fff;">
-                                <h4 style="color: #fff;">Software</h4>
-                                <p class="text-white" style="margin-bottom: 0px;"><a href="softwareproducts.html">learn more</a></p>
+                            <div class="col-sm-6 col-md-4 item"><a href="author.html"><img class="img-fluid" src="assets/img/bcsauthor_banner.png"></a>
+                                <h3 class="name">Author</h3>
+                                <p class="description">A browser based, light-weight, privacy-oriented writing app.</p><a class="action" href="author.html"><i class="fa fa-arrow-circle-right" style="color: #1a1a1a;"></i></a>
                             </div>
-                        </div>
-                    </div><!-- End: 1 Row 3 Columns -->
-                </div>
+                        </div><!-- End: Articles -->
+                    </div><!-- End: Home -->
+                    <!-- Start: Business -->
+                    <div class="container">
+                        <!-- Start: Intro -->
+                        <div class="intro">
+                            <h2 class="text-center" style="padding-top: 0px;">For Business</h2>
+                        </div><!-- End: Intro -->
+                        <!-- Start: Articles -->
+                        <div class="row articles">
+                            <div class="col-sm-6 col-md-4 item"><a href="page12.html"><img class="img-fluid" src="assets/img/bcsmarketing.png"></a>
+                                <h3 class="name">BCS Marketing</h3>
+                                <p class="description">Flat rate, rights-respecting marketing platform.</p><a class="action" href="page12.html"><i class="fa fa-arrow-circle-right" style="color: #1a1a1a;"></i></a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 item"><a href="cloud.html"><img class="img-fluid" src="assets/img/bcscloud_blur.png"></a>
+                                <h3 class="name">BCS Cloud</h3>
+                                <p class="description">Privacy-respecting cloud services.</p><a class="action" href="cloud.html"><i class="fa fa-arrow-circle-right" style="color: #1a1a1a;"></i></a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 item"><a href="webdesign.html"><img class="img-fluid" src="assets/img/webdesign.png"></a>
+                                <h3 class="name">Web Design</h3>
+                                <p class="description">Cost-efficient web design and development.</p><a class="action" href="webdesign.html"><i class="fa fa-arrow-circle-right" style="color: #1a1a1a;"></i></a>
+                            </div>
+                        </div><!-- End: Articles -->
+                    </div><!-- End: Business -->
+                </section><!-- End: Article List -->
             </div><!-- End: more -->
         </section>
         <section class="clean-block about-us" style="padding: 0px 0px 0px;">
